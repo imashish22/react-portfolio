@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   
+    background-color: #0A192F;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #013f3c7f; 
+    border-radius: 10px;
+  }
+  
+i{
+  cursor: pointer;
+
+}
+i:hover{
+  color:  white;
+}
+
+.k{
+  animation: k 1s infinite;
+}
+
+@keyframes k {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+
+  }
+  100%{
+    opacity: 0.5;
+
+  }
+}
+
+.a{
+  animation: a 1s infinite;
+}
+
+@keyframes a {
+  0%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+
+  }
+  100%{
+    opacity: 0.5;
+
+  }
+}
+
+.j{
+  animation: j 1s infinite;
+}
+
+@keyframes j {
+  0%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 0.5;
+
+  }
+  100%{
+    opacity: 1;
+
+  }
 }
