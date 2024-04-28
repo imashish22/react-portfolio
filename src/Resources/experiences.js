@@ -11,7 +11,7 @@ export const experiences = [
     title: "Student",
     period: "2019-2021",
     desription:
-      "I Successfully cleared my HSC Examination with 83% from thakur Shyamnarayan high School . I get maximum marks in Physics and Maths",
+      "I Successfully cleared my HSC Examination with 83% from Bhavan's college of Science,Commerce and arts . I get maximum marks in Physics and Maths",
   },
   {
     company: "SSC",
